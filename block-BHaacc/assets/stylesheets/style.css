@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Custom styles */
+
+
+/* General Styles */
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin:0 auto; 
+    padding: 100px 0;
+}
+
+.header-padding{
+	padding: 30px 0;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.btn{
+	border-radius: 25px;
+	padding: 15px 25px;
+	display: inline-block;
+}
+
+.btn-fill{
+	background-color: rgb(201, 3, 3);	
+}
+
+.btn-hollow{
+	border: 2px solid white;
+}
+
+.block{
+	display: flex;
+	margin: 10px 0;
+}
+
+.square{
+	margin-right:4px;
+	width: 10px;
+	height: 10px;
+	background-color: rgb(190, 190, 190);
+}
+
+.heading{
+	font-size: 24px;
+	color: rgb(80, 80, 80);
+	font-weight: 700;
+}
+
+.para{
+	font-size: 15px;
+	color: darkgrey;
+	line-height: 20px;
+}
+
+/* Specific Styles */
+
+
+/* Header Section */
+.header{
+	position: absolute;
+	background: transparent;
+	width: 100%;
+}
+
+.brand-name{
+	font-size: 30px;
+}
+
+.header-navbar li {
+	margin:0 10px;
+}
+
+.social-icon{
+	margin-right: 50px;
+}
+.social-icon i{
+	margin:0 10px;
+}
+
+
+/* Hero Section */
+.hero{
+	background-image: linear-gradient(to right ,rgba(47,111,186,0.8),rgba(136,234,146,0.8)),url("../home-bg.jpg");
+	padding-top: 200px;
+	background-size: cover;
+	height: 550px;
+}
+
+.hero-heading-btn{
+	padding:50px 80px 50px 0;
+	color: white;
+}
+
+.hero-heading-btn h1{
+	font-size: 40px;
+	line-height: 50px;
+}
+
+.btn-contact{
+	margin: 10px 0;
+	justify-content: space-between;
+}
+
+/* Introduction Section */
+
+.intro .container{
+	padding-bottom: 0;
+}
+
+
+.intro-article{
+	width: 45%;
+	padding-right:50px;
+}
+
+.bars{
+	margin: 10px 0;
+	border-bottom: 2px solid black;
+}
+
+.progress{
+	width: 30%;
+}
+
+.intro-image{
+	width: 30%;
+}
+
+.intro-image img {
+	width: 100%;
+}
+
+
+/* Blog section */
+
+.blog{
+	background-color: rgb(235, 235, 235);
+}
+
+.blog-header{
+	flex-direction: column;
+	padding-bottom: 0;
+}
+
+.article{
+	align-items: stretch;
+	background-color: white;
+	margin: 0 20px;
+	width: 40%;
+
+}
+
+.blog-article-img img{
+	width: 100%;
+}
+
+.para-red{
+	color: crimson;
+}
+
+.blog-article-text{
+	padding: 20px;
+}
+
+.blog-article-text i {
+	padding-right:10px;
+}
+
+.blog-article-text h4{
+	padding: 20px 0;
+}

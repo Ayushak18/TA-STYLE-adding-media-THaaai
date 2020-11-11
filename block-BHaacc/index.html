@@ -1,0 +1,162 @@
+<!-- - Create a layout according to the design shown below.
+
+![Backgrounds and gradient Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/adding-media/ex-1.png)
+
+- Video link: https://www.youtube.com/watch?v=AqcjdkPMPJA#action=share
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>HYDRO | MEDIA</title>
+
+        <!-- Style sheets link -->
+        <link rel="stylesheet" href="./assets/stylesheets/style.css">
+
+        <!-- Font link -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome Icon kit -->
+        <script src="https://kit.fontawesome.com/67427b16f1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container flex header-padding">
+                <div class="brand-name">
+                    <h4><a href="">Hydro</a></h4>
+                </div>
+                <nav class="header-navbar">
+                    <ul class="flex">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Our Work</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="social-icon-header-btn flex">
+                    <div class="social-icon">
+                        <a target="_blank" href="https://wwww.facebook.com">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a target="_blank" href="https://www.twitter.com">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="header-btn">
+                        <a href="#" class="btn btn-fill">Sign In/Join</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="container flex">
+                    <div class="hero-heading-btn">
+                        <h1><strong>We make beautiful website for all people.</strong></h1>
+                        <div class="btn-contact flex">
+                            <div class="hero-btn">
+                                <a href="#" class="btn btn-hollow">Start a Project</a>
+                            </div>
+                            <div class="hero-contact">
+                                <p>CALL US (+66)101-020-0340</p>
+                                <p>For any inquiry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-intro-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AqcjdkPMPJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Intro Section -->
+            <section class="intro">
+                <div class="container flex">
+                    <article class="intro-article">
+                        <h4 class="heading">Let us introduce</h4>
+                        <div class="block">
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                        </div>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, et quidem animi delectus, debitis quod porro est, laboriosam dolorum pariatur illum accusantium libero nam! Expedita placeat ullam maxime voluptates non?</p>
+                    </article>
+
+                    <div class="progress">
+                        <div class="web bars flex">
+                            <h4>Web Design</h4>
+                            <p class="para">85%</p>
+                        </div>
+                        <div class="web bars flex">
+                            <h4>Photography</h4>
+                            <p class="para">90%</p>
+                        </div>
+                        <div class="web bars flex">
+                            <h4>Content-Marketing</h4>
+                            <p class="para">75%</p>
+                        </div>
+                        <div class="web bars flex">
+                            <h4>CMS Admin</h4>
+                            <p class="para">70%</p>
+                        </div>
+                    </div>
+
+                    <div class="intro-image">
+                        <img src="./assets/about-image.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog Section -->
+
+            <section class="blog">
+                <div class="blog-header container flex">
+                    <h4 class="heading">Our Blog</h4>
+                    <div class="block">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div> 
+                </div>
+                <div class="our-blog container ">
+                     <div class="blog-articles flex">
+                        <article class="article flex">
+                            <div class="blog-article-img">
+                                <img src="./assets/blog-image1.jpg" alt="Blog image One">
+                            </div>
+                            <div class="blog-article-text">
+                                <p class="para-red"><i class="far fa-clock"></i>December 22 , 2017</p>
+                                <h4 class="heading">How To Find Out Beautiful Workspace</h4>
+                                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <a class="btn btn-hollow" href="#">Read Article</a>
+                            </div>
+                        </article>
+                        <article class="article flex">
+                            <div class="blog-article-img">
+                                <img src="./assets/blog-image2.jpg" alt="Blog image Two">
+                            </div>
+                            <div class="blog-article-text">
+                                <p class="para-red"><i class="far fa-clock"></i>December 22 , 2017</p>
+                                <h4 class="heading">How To Find Out Beautiful Workspace</h4>
+                                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <a class="btn btn-hollow" href="#">Read Article</a>
+                            </div>
+                        </article>
+                     </div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>
